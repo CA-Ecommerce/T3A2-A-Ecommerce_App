@@ -25,12 +25,34 @@ Key aspects include:
     -   [MVP Features](#mvp-features)
     -   [Additional Features](#additional-features-post-mvp)
 
+<br>
+
 -   [Packages, Dependencies and Third-Party Services](#packages-dependencies-and-third-party-services)
 
     -   [Backend](#backend)
     -   [Frontend](#frontend)
     -   [Development](#development)
     -   [Deployment Services](#deployment-services)
+
+<br>
+
+-   [Dataflow & Application Architecture](#dataflow-and-application-architecture)
+
+    -   [Dataflow Diagram](#dataflow-diagram)
+    -   [Application Architecture Diagram](#application-architecture-diagram)
+
+<br>
+
+-   [User Stories & Personas](#user-stories-and-personas)
+
+    -   [Persona 1](#persona-1)
+    -   [Persona 2](#persona-2)
+    -   [Persona 3](#persona-3)
+    -   [User Story 1](#user-story-1)
+    -   [User Story 2](#user-story-2)
+    -   [User Story 3](#user-story-3)
+
+<br>
 
 -   [Task Management and Project Progress](#task-management-and-project-progress)
     -   [Trello Board](#trello-board)
