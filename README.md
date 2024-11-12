@@ -333,6 +333,29 @@ User Story 3 details here...
 
 <br>
 
+## Wireframes
+
+We designed three breakpoints for the following devices:
+
+- Mobile
+- Tablet
+- Desktop
+
+
+### **Desktop view (PLACEHOLDER)**
+
+![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-desktop.png)
+
+### **Tablet view (PLACEHOLDER)**
+
+![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-tablet.png)
+
+### **Mobile view (PLACEHOLDER)**
+
+![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-mobile.png)
+
+<br>
+
 ## Task Management and Project Progress
 
 Throughout the development of this project we utilised Trello as our primary task management tool. This approach allowed us to effectively organise, prioritise, and track the progress of various features and tasks.
