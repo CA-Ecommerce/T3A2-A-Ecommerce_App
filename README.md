@@ -21,11 +21,13 @@ Key aspects include:
 - [Features and Functionality](#features-and-functionality)
   - [MVP Features](#mvp-features)
   - [Additional Features](#additional-features-post-mvp)
+
 - [Packages, Dependencies and Third-Party Services](#packages-dependencies-and-third-party-services)
   - [Backend](#backend)
   - [Frontend](#frontend)
   - [Development](#development)
   - [Deployment Services](#deployment-services)
+
 - [Task Management and Project Progress](#task-management-and-project-progress)
   - [Trello Board](#trello-board)
   - [Key Milestones](#key-milestones)
