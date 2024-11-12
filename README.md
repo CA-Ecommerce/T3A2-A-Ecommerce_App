@@ -113,6 +113,7 @@ Key aspects include:
 Each feature is designed to enhance the overall shopping experience while providing businesses with powerful tools to manage their online presence effectively.
 
 <br>
+<br>
 
 ## Packages, Dependencies and Third-Party Services
 
@@ -255,6 +256,59 @@ The E-commerce Store utilises carefully selected technologies that work together
 These packages and their dependencies work together to provide a robust, secure, and efficient full-stack e-commerce application, handling everything from database operations and payment processing to user interface components and testing.
 
 <br>
+
+## Dataflow & Application Architecture
+
+Explanation of dataflow diagram here...
+
+**--IMAGE of Dataflow Diagram--**
+
+<br>
+
+Explanation of application architecture here...
+
+**--IMAGE of Application Architecture Diagram--**
+
+<br>
+
+## User Stories & Personas
+
+Introduction to section here...
+
+### Persona 1
+
+Persona 1 details here...
+
+<br>
+
+### Persona 2
+
+Persona 2 details here...
+
+<br>
+
+### Persona 3
+
+Persona 3 details here...
+
+<br>
+
+### User Story 1
+
+User Story 1 details here...
+
+<br>
+
+### User Story 2
+
+User Story 2 details here...
+
+<br>
+
+### User Story 3
+
+User Story 3 details here...
+
 <br>
 
 ## Task Management and Project Progress
