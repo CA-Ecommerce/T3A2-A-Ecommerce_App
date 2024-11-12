@@ -7,30 +7,34 @@ At its core, the application serves as a bridge between businesses and their cus
 The platform combines React's powerful frontend capabilities with Express.js's robust backend, MongoDB's flexible data management, and industry-standard security practices. With features like Stripe integration for payments and automated email notifications through Resend, it delivers a comprehensive solution for modern e-commerce needs.
 
 Key aspects include:
-- Secure user authentication and authorization
-- Comprehensive product management system
-- Streamlined checkout process with Stripe integration
-- Responsive design for all devices
-- Admin dashboard for business operations
-- Real-time inventory tracking
-- Automated email notifications for orders and updates
+
+-   Secure user authentication and authorization
+-   Comprehensive product management system
+-   Streamlined checkout process with Stripe integration
+-   Responsive design for all devices
+-   Admin dashboard for business operations
+-   Real-time inventory tracking
+-   Automated email notifications for orders and updates
 
 <br>
 
 ## Table of Contents
-- [Features and Functionality](#features-and-functionality)
-  - [MVP Features](#mvp-features)
-  - [Additional Features](#additional-features-post-mvp)
 
-- [Packages, Dependencies and Third-Party Services](#packages-dependencies-and-third-party-services)
-  - [Backend](#backend)
-  - [Frontend](#frontend)
-  - [Development](#development)
-  - [Deployment Services](#deployment-services)
+-   [Features and Functionality](#features-and-functionality)
 
-- [Task Management and Project Progress](#task-management-and-project-progress)
-  - [Trello Board](#trello-board)
-  - [Key Milestones](#key-milestones)
+    -   [MVP Features](#mvp-features)
+    -   [Additional Features](#additional-features-post-mvp)
+
+-   [Packages, Dependencies and Third-Party Services](#packages-dependencies-and-third-party-services)
+
+    -   [Backend](#backend)
+    -   [Frontend](#frontend)
+    -   [Development](#development)
+    -   [Deployment Services](#deployment-services)
+
+-   [Task Management and Project Progress](#task-management-and-project-progress)
+    -   [Trello Board](#trello-board)
+    -   [Key Milestones](#key-milestones)
 
 <br>
 
@@ -39,66 +43,72 @@ Key aspects include:
 ### MVP Features
 
 1. **User Authentication and Management**
-   - Secure registration and login system
-   - JWT-based authentication
-   - Password reset via email
-   - User profile management
-   - Role-based access (Customer/Admin)
-   - Order history tracking
-   - Address management
+
+    - Secure registration and login system
+    - JWT-based authentication
+    - Password reset via email
+    - User profile management
+    - Role-based access (Customer/Admin)
+    - Order history tracking
+    - Address management
 
 2. **Product Management**
-   - Product catalog with detailed information
-   - Multiple product images
-   - Category organization
-   - Search functionality
-   - Stock level tracking
-   - Product availability status
-   - Basic sorting options
+
+    - Product catalog with detailed information
+    - Multiple product images
+    - Category organization
+    - Search functionality
+    - Stock level tracking
+    - Product availability status
+    - Basic sorting options
 
 3. **Shopping Experience**
-   - Intuitive shopping cart
-   - Real-time stock updates
-   - Mobile-responsive design
-   - Product image galleries
-   - Cart persistence
-   - Guest checkout option
-   - Basic product filtering
+
+    - Intuitive shopping cart
+    - Real-time stock updates
+    - Mobile-responsive design
+    - Product image galleries
+    - Cart persistence
+    - Guest checkout option
+    - Basic product filtering
 
 4. **Payment and Checkout**
-   - Stripe payment integration
-   - Secure checkout process
-   - Order confirmation system
-   - Email notifications
-   - Basic shipping options
-   - Order tracking
-   - Transaction history
+
+    - Stripe payment integration
+    - Secure checkout process
+    - Order confirmation system
+    - Email notifications
+    - Basic shipping options
+    - Order tracking
+    - Transaction history
 
 5. **Admin Features**
-   - Product CRUD operations
-   - Basic inventory management
-   - Order processing system
-   - Category management
+    - Product CRUD operations
+    - Basic inventory management
+    - Order processing system
+    - Category management
 
 ### Additional Features (Post-MVP)
 
 1. **Enhanced Shopping Features**
-   - Product reviews and ratings
-   - Wishlist functionality
-   - Recently viewed products
-   - Social sharing
+
+    - Product reviews and ratings
+    - Wishlist functionality
+    - Recently viewed products
+    - Social sharing
 
 2. **Advanced Commerce Features**
-   - Multiple payment methods
-   - Discount code system
 
-4. **Advanced Admin Tools**
-   - Advanced analytics
-   - Bulk product management
-   - Advanced user management
-   - Sales reports
-   - Customer insights
-   - Staff accounts
+    - Multiple payment methods
+    - Discount code system
+
+3. **Advanced Admin Tools**
+    - Advanced analytics
+    - Bulk product management
+    - Advanced user management
+    - Sales reports
+    - Customer insights
+    - Staff accounts
 
 Each feature is designed to enhance the overall shopping experience while providing businesses with powerful tools to manage their online presence effectively.
 
@@ -253,7 +263,7 @@ Throughout the development of this project we utilised Trello as our primary tas
 
 ### Trello Board
 
-You can view our project's Trello board [here](https://trello.com).
+You can view our project's Trello board [here](https://trello.com/b/lGrFjkAu).
 
 The board is organised into the following lists:
 
