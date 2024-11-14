@@ -295,23 +295,55 @@ Explanation of application architecture here...
 
 ## User Stories & Personas
 
-Introduction to section here...
+<strong>Vinyl Vibe</strong> is an expanding Record Store with a <em>cult following</em>! 
+
+After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgance of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm's nephew created in the 90s. 
+
+Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has traveled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em> 
+
+Norm needs an effecitve modern website that can connect and sell to their customers, be they local, interstate, or international!
 
 ### Persona 1
 
-Persona 1 details here...
+#### Shop Owner
+
+Name: Norm Gleeson
+
+#### Demogrpahic:
+- 66 years old
+- Divorced
+- No children
+- Former Musician and Roadie for The Angels turned Record Store Owner.
+
+#### Goals:
+
+Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purcahse records and turntables from his shop. 
+
+He has large inventory of hard to find records from both famous and obscure Australian bands, including hihgly sort after records that never made it into international markets. Norm is the go to guru for all things Aussie Rock!
+
+#### Motivations:
+
+To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
+
+#### Frustrations:
 
 <br>
 
 ### Persona 2
+Shop Manager/Webmaster
 
-Persona 2 details here...
 
 <br>
 
 ### Persona 3
 
-Persona 3 details here...
+Hobbiest/Collector
+
+<br>
+
+### Persona 4
+
+
 
 <br>
 
