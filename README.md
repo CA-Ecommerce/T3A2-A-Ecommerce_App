@@ -281,9 +281,101 @@ These packages and their dependencies work together to provide a robust, secure,
 
 ## Dataflow & Application Architecture
 
-Explanation of dataflow diagram here...
+![Dataflow-Diagram](docs/Dataflow-Diagram/dataflow-diagram.JPG)
 
-**--IMAGE of Dataflow Diagram--**
+### External Entities
+
+External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
+
+1. User
+- Represents the customer interacting with the eCommerce store.
+- Actions:
+    - Authenticates to log in or register.
+    - Browse products
+    - Add items to shopping cart
+    - Proceed to checkout
+    - Payment
+
+2. Admin
+- Represents the store administrator who can manage the store and perform CRUD operations.
+- Actions:
+    - Manages Product, Orders and Users via CRUD operations.
+    - View the admin dashboard tools
+
+3. Payment Gateway (Stripe)
+- Third party service used to securely process payments.
+- Actions:
+    - Processes payment details submitted by customer during checkout.
+    - Returns a payment confirmation or failure status.
+
+4. Email service (Resend)
+- Third party email service used for sending transactional emails.
+- Actions:
+    - Sends order confirmation emails to the customer upon successful order payment.
+    - Sends additional updates related to orders or account activities.
+
+### Processes
+
+Processes represent the core operations or functions that process, manipulate, or route data within the system.
+
+1. User Authentication
+- Validates user credentials during login or registration.
+- Inputs: login credentials (email and password).
+- Outputs: Authentication token (JWT) on success or error message on failure.
+
+2. Product Management (Admin)
+- Manages the product inventory.
+- Inputs: Admin provided product data for CRUD operations.
+- Outputs: Updated product information stored in the database.
+
+3. Shopping Cart
+- Handles the user's shopping cart operations.
+- Inputs: Product selections (add, remove, modify quantities).
+- Outputs: List of selected items with quantities and pricing.
+
+4. Checkout and Payment
+- Managages the checkout process and interfaces with the payment gateway (via stripe).
+- Inputs: Shopping cart details and payment details.
+- Outputs: Order confirmation on success or error message on failure.
+
+5. Order Management
+- Handles order creation and tracking.
+- Inputs: Shopping cart details, payment confirmation and user info.
+- Outputs: Order record stored in the database, confirmation email sent to the user. (resend)
+
+6. Admin Dashboard
+- Provides the admin with tools for managing the store via CRUD operations.
+- Inputs: Admin actions for product, user and order management.
+- Outputs: Updated product, user and order details displayed and stored.
+
+### Data Stores
+
+Where the data is stored in the system and is accessed or updated by the processes.
+
+1. User Database
+- Stores user account information (name, email)
+- Contents:
+    - User Profiles (name, email, address).
+    - Login credentials (hashed passwords).
+    - Order history.
+
+2. Products Database
+- Stores product information
+- Contents:
+    - Product details (ID, SKU, name, description, price, stock level).
+
+3. Orders Database
+- Stores records of all orders placed by users.
+- Contents:
+    - Order details (items purchased, quantities and total price).
+    - Payment status.
+
+4. Sessions (Optional)
+- Tracks active authenticated user sessions.
+- Contents:
+    - JWT tokens for authenticated users.
+
+
 
 <br>
 
