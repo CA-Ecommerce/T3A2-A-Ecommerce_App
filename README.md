@@ -297,7 +297,10 @@ Explanation of application architecture here...
 
 <strong>Vinyl Vibe</strong> is an expanding Record Store with a <em>cult following</em>! 
 
-After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgance of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm's nephew created in the 90s. 
+After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgance of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm Gleeson's nephew created in the 90s, pictured below.
+![Groovy Records Webpage](docs/user-stories/groovy-records.png)
+
+Norm has a large inventory of rare and hard to find records from both famous and obscure Australian artists, including highly sort after records that never made it into International markets. He is the go to guru for all things Aus Music!
 
 Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has traveled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em> 
 
@@ -319,7 +322,7 @@ Name: Norm Gleeson
 
 Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purcahse records and turntables from his shop. 
 
-He has large inventory of hard to find records from both famous and obscure Australian bands, including hihgly sort after records that never made it into international markets. Norm is the go to guru for all things Aussie Rock!
+
 
 #### Motivations:
 
