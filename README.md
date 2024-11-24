@@ -337,7 +337,7 @@ Processes represent the core operations or functions that process, manipulate, o
 - Outputs: List of selected items with quantities and pricing.
 
 4. Checkout and Payment
-- Managages the checkout process and interfaces with the payment gateway (via stripe).
+- Manages the checkout process and interfaces with the payment gateway (via stripe).
 - Inputs: Shopping cart details and payment details.
 - Outputs: Order confirmation on success or error message on failure.
 
@@ -392,14 +392,13 @@ Explanation of application architecture here...
 
 <strong>Vinyl Vibe</strong> is an expanding Record Store with a <em>cult following</em>! 
 
-After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgance of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm Gleeson's nephew created in the 90s, pictured below.
-![Groovy Records Webpage](docs/user-stories/groovy-records.png)
+After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgence of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm Gleeson's nephew created in the 90s, attached below (image reference 1).
 
 Norm has a large inventory of rare and hard to find records from both famous and obscure Australian artists, including highly sort after records that never made it into International markets. He is the go to guru for all things Aus Music!
 
-Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has traveled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em> 
+Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has travelled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em> 
 
-Norm needs an effecitve modern website that can connect and sell to their customers, be they local, interstate, or international!
+Norm needs an effective modern website that can connect and sell to their customers, be they local, interstate, or international!
 
 ### Persona 1
 
@@ -407,7 +406,7 @@ Norm needs an effecitve modern website that can connect and sell to their custom
 
 Name: Norm Gleeson
 
-#### Demogrpahic:
+#### Demographic:
 - 66 years old
 - Divorced
 - No children
@@ -415,8 +414,7 @@ Name: Norm Gleeson
 
 #### Goals:
 
-Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purcahse records and turntables from his shop. 
-
+Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop. 
 
 
 #### Motivations:
@@ -463,7 +461,39 @@ User Story 3 details here...
 
 <br>
 
-## Wireframes
+---
+
+<details>
+  <summary>Image References</summary>
+
+  <br>
+
+  - Reference 1
+    
+    <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
+
+    <br>
+      
+  - Reference 2
+    
+    <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
+</details>
+
+---
+
+<br>
+
+## Site Map
+
+Our e-commerce platform's structure is designed to provide intuitive navigation for both customers and administrators. The site map illustrates the hierarchical organization of pages and features, ensuring a logical flow from browsing products to completing purchases. We've organised the navigation to minimise the number of clicks required to reach any destination while maintaining a clear separation between customer-facing pages and administrative functions.
+
+The following site map outlines the complete structure of our application:
+
+![Image of the desktop wireframe for all pages](/docs/wireframes/site-map.png)
+
+<br>
+
+## Wire Frames
 
 We designed three breakpoints for the following devices:
 
@@ -510,7 +540,11 @@ The board is organised into the following lists:
   <summary>View Trello Board Screenshots ⬇️</summary>
   <br>
   <img src="docs/trello-screenshots/trello-1.png" alt="Trello Board Screenshot 1" width="300">
-  <img src="docs/trello-screenshots/trello-1.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-2.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-3.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-4.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-5.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-6.png" alt="Trello Board Screenshot 1" width="300">
 </details>
 
 ---
