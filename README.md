@@ -1,6 +1,6 @@
-# Ecommerce Store - T3A2-A
+# Vinyl Vibe - T3A2-A
 
-Our E-commerce Store is a sophisticated MERN stack application designed to provide businesses with a complete online retail solution. This platform seamlessly integrates secure payment processing, user authentication, and inventory management into a user-friendly shopping experience.
+Vinyl Vibe is a sophisticated e-commerce store built using the MERN stack. This platform seamlessly integrates secure payment processing, user authentication, and inventory management into a user-friendly shopping experience.
 
 At its core, the application serves as a bridge between businesses and their customers, offering a modern, responsive interface for browsing products, managing purchases, and processing secure transactions. Built with scalability in mind, it accommodates both small businesses and larger enterprises, providing essential tools for inventory management, order processing, and customer engagement.
 
