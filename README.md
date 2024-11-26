@@ -414,19 +414,56 @@ Name: Norm Gleeson
 
 #### Goals:
 
-Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop. 
-
+- Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop. 
+- Expand his busisness to provide a more stable income for himself and his staff.
+- Build a brand for his business to allow him to increase the size of his professional network. 
+- Expand his professional network to allow him to better serve his customers in the exchanging of hard to find and rare records. 
 
 #### Motivations:
 
-To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
+- To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The stories that are shared. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
 
 #### Frustrations:
+
+- His current website (much like most of his fondest memories of being on the road) is stuck in the 90s and is well overdue for an update, but Norm takes a while learning new systems and building a website is well outside his skillset. 
+- With an estmiated <strong>80-100 milk crates full of records in his exisiting inventory</strong>, Norm isn't even sure how many records he has at any given moment. It's also difficult for him to keep track of what comes and goes. There are many records that could be getting sold, but aren't even advertised on his website. Not that it would matter, as the SEO for his website is almost non-existent and it gets very little traffic.
 
 <br>
 
 ### Persona 2
-Shop Manager/Webmaster
+
+#### Shop Manager/Webmaster
+
+Name: Ruby Harper
+
+#### Demographic
+- 38 years old
+- Married
+- 3 children
+- Former manager of a JB Hi Fi.
+- Amateur musicain and artist.  
+
+#### Goals:
+- To take the organisation of stock out of Norm's hands so that he can focus on what he's best at, building relationships with his customers and direct selling.
+- To have a website that at any given time has <strong>EVERY</strong> record they have in boxes and milk creates advertised to buy, swap, or sell. 
+- A stremlined process for customers to log onto their website and create a profile to track orders and addresses. This will allow for direct marketing through email, or even traditional postage of newsletters and catalogues. 
+- Expand the business so they can move to a larger premises. This will create opportunites for them to add additional income streams, such as:
+    - A cafe with a liquor license, 
+    - A small live venue suitable for album launches, listening parties, and signings,
+    - More display space for their existing stock,
+ 
+
+
+#### Motivations:
+- To once again thrive in a store that's main focus is music, and not a "Bing Lee with records" (which is what she believes JB Hi Fi has become.)
+- To feel a sense of pride, ownership, and community in her workplace while nurturing her love of music.  
+- To support the local scene of young and old musical talent, and become a destination that touring artists stop for a selfie for socials. 
+
+#### Frustrations:
+- So much unrealised potential in this business!
+- Incomplete database of stock, orders, and customers
+- A very outdated website that is quite obnoxious. 
+- No procedures for marketing or retargeting past customers.
 
 
 <br>
@@ -445,13 +482,21 @@ Hobbiest/Collector
 
 ### User Story 1
 
-User Story 1 details here...
+<strong>As a Record Store owner,</strong>
+* I want to attract new customers from outside my local area with a method of purchasing my stock for shipping.  
+* I need branding that reflects my desire to be viewed as a modern business with decades of expertise in my field.
+* I need a method to properly catalogue my ever changing stock of records, turntables, parts, and accessories. 
+
 
 <br>
 
 ### User Story 2
 
-User Story 2 details here...
+<strong>As a Record Store owner,</strong>
+* I want to grow our business through serving our customers much better than we have been. 
+* I want a simple to use backend for the website that allows me to catalogue and advertise the vast stock of records we have at any given time. 
+* I want to be able to retarget our previous customers to advertise small events and listening parties that will get people into the store, where they're more likely to buy records. 
+* We need to be able to effectively advertise to the people outside of our local area chasing very hard to find records that we currently have in stock, but not advertised. 
 
 <br>
 
