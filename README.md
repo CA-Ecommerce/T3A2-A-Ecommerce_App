@@ -281,7 +281,8 @@ These packages and their dependencies work together to provide a robust, secure,
 
 ## Dataflow & Application Architecture
 
-![Dataflow-Diagram](docs/Dataflow-Diagram/dataflow-diagram.JPG)
+![Dataflow_Diagram_V2](docs/Dataflow-Diagram/dataflow_diagram_V2.JPG)
+
 
 #### Dataflow Diagram brief goes here
 
