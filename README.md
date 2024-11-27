@@ -284,101 +284,114 @@ These packages and their dependencies work together to provide a robust, secure,
 ![Dataflow-Diagram](docs/Dataflow-Diagram/dataflow-diagram.JPG)
 
 #### Dataflow Diagram brief goes here
-- Small description
+
+-   Small description
 
 ### External Entities
 
 External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
 
 1. User
-- Represents the customer interacting with the eCommerce store.
-- Actions:
-    - Authenticates to log in or register.
-    - Browse products
-    - Add items to shopping cart
-    - Proceed to checkout
-    - Payment
+
+-   Represents the customer interacting with the eCommerce store.
+-   Actions:
+    -   Authenticates to log in or register.
+    -   Browse products
+    -   Add items to shopping cart
+    -   Proceed to checkout
+    -   Payment
 
 2. Admin
-- Represents the store administrator who can manage the store and perform CRUD operations.
-- Actions:
-    - Manages Product, Orders and Users via CRUD operations.
-    - View the admin dashboard tools
+
+-   Represents the store administrator who can manage the store and perform CRUD operations.
+-   Actions:
+    -   Manages Product, Orders and Users via CRUD operations.
+    -   View the admin dashboard tools
 
 3. Payment Gateway (Stripe)
-- Third party service used to securely process payments.
-- Actions:
-    - Processes payment details submitted by customer during checkout.
-    - Returns a payment confirmation or failure status.
+
+-   Third party service used to securely process payments.
+-   Actions:
+    -   Processes payment details submitted by customer during checkout.
+    -   Returns a payment confirmation or failure status.
 
 4. Email service (Resend)
-- Third party email service used for sending transactional emails.
-- Actions:
-    - Sends order confirmation emails to the customer upon successful order payment.
-    - Sends additional updates related to orders or account activities.
+
+-   Third party email service used for sending transactional emails.
+-   Actions:
+    -   Sends order confirmation emails to the customer upon successful order payment.
+    -   Sends additional updates related to orders or account activities.
 
 ### Processes
 
 Processes represent the core operations or functions that process, manipulate, or route data within the system.
 
 1. User Authentication
-- Validates user credentials during login or registration.
-- Inputs: login credentials (email and password).
-- Outputs: Authentication token (JWT) on success or error message on failure.
+
+-   Validates user credentials during login or registration.
+-   Inputs: login credentials (email and password).
+-   Outputs: Authentication token (JWT) on success or error message on failure.
 
 2. Product Management (Admin)
-- Manages the product inventory.
-- Inputs: Admin provided product data for CRUD operations.
-- Outputs: Updated product information stored in the database.
+
+-   Manages the product inventory.
+-   Inputs: Admin provided product data for CRUD operations.
+-   Outputs: Updated product information stored in the database.
 
 3. Shopping Cart
-- Handles the user's shopping cart operations.
-- Inputs: Product selections (add, remove, modify quantities).
-- Outputs: List of selected items with quantities and pricing.
+
+-   Handles the user's shopping cart operations.
+-   Inputs: Product selections (add, remove, modify quantities).
+-   Outputs: List of selected items with quantities and pricing.
 
 4. Checkout and Payment
-- Manages the checkout process and interfaces with the payment gateway (via stripe).
-- Inputs: Shopping cart details and payment details.
-- Outputs: Order confirmation on success or error message on failure.
+
+-   Manages the checkout process and interfaces with the payment gateway (via stripe).
+-   Inputs: Shopping cart details and payment details.
+-   Outputs: Order confirmation on success or error message on failure.
 
 5. Order Management
-- Handles order creation and tracking.
-- Inputs: Shopping cart details, payment confirmation and user info.
-- Outputs: Order record stored in the database, confirmation email sent to the user. (resend)
+
+-   Handles order creation and tracking.
+-   Inputs: Shopping cart details, payment confirmation and user info.
+-   Outputs: Order record stored in the database, confirmation email sent to the user. (resend)
 
 6. Admin Dashboard
-- Provides the admin with tools for managing the store via CRUD operations.
-- Inputs: Admin actions for product, user and order management.
-- Outputs: Updated product, user and order details displayed and stored.
+
+-   Provides the admin with tools for managing the store via CRUD operations.
+-   Inputs: Admin actions for product, user and order management.
+-   Outputs: Updated product, user and order details displayed and stored.
 
 ### Data Stores
 
 Where the data is stored in the system and is accessed or updated by the processes.
 
 1. User Database
-- Stores user account information (name, email)
-- Contents:
-    - User Profiles (name, email, address).
-    - Login credentials (hashed passwords).
-    - Order history.
+
+-   Stores user account information (name, email)
+-   Contents:
+    -   User Profiles (name, email, address).
+    -   Login credentials (hashed passwords).
+    -   Order history.
 
 2. Products Database
-- Stores product information
-- Contents:
-    - Product details (ID, SKU, name, description, price, stock level).
+
+-   Stores product information
+-   Contents:
+    -   Product details (ID, SKU, name, description, price, stock level).
 
 3. Orders Database
-- Stores records of all orders placed by users.
-- Contents:
-    - Order details (items purchased, quantities and total price).
-    - Payment status.
+
+-   Stores records of all orders placed by users.
+-   Contents:
+    -   Order details (items purchased, quantities and total price).
+    -   Payment status.
 
 4. Sessions (Optional)
-- Tracks active authenticated user sessions.
-- Contents:
-    - JWT tokens for authenticated users.
 
-
+-   Tracks active authenticated user sessions.
+-   Contents:
+    -   JWT tokens for authenticated users.
 
 <br>
 
@@ -390,13 +403,13 @@ Explanation of application architecture here...
 
 ## User Stories & Personas
 
-<strong>Vinyl Vibe</strong> is an expanding Record Store with a <em>cult following</em>! 
+<strong>Vinyl Vibe</strong> is an expanding Record Store with a <em>cult following</em>!
 
 After many years of struggling to keep the doors open as <strong>Groovy Records</strong>, the resurgence of the Vinyl Record market in the past 5 years has seen them outgrow the crude, hardcoded, HTML page that owner Norm Gleeson's nephew created in the 90s, attached below (image reference 1).
 
 Norm has a large inventory of rare and hard to find records from both famous and obscure Australian artists, including highly sort after records that never made it into International markets. He is the go to guru for all things Aus Music!
 
-Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has travelled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em> 
+Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vibe</strong> has travelled far and wide through Facebook and Reddit. They've identified a growing market of customers who want buy from Norm, <em>but don't live in the area.</em>
 
 Norm needs an effective modern website that can connect and sell to their customers, be they local, interstate, or international!
 
@@ -407,26 +420,27 @@ Norm needs an effective modern website that can connect and sell to their custom
 Name: Norm Gleeson
 
 #### Demographic:
-- 66 years old
-- Divorced
-- No children
-- Former Musician and Roadie for The Screaming Jets turned Record Store Owner.
+
+-   66 years old
+-   Divorced
+-   No children
+-   Former Musician and Roadie for The Screaming Jets turned Record Store Owner.
 
 #### Goals:
 
-- Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop. 
-- Expand his busisness to provide a more stable income for himself and his staff.
-- Build a brand for his business to allow him to increase the size of his professional network. 
-- Expand his professional network to allow him to better serve his customers in the exchanging of hard to find and rare records. 
+-   Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop.
+-   Expand his busisness to provide a more stable income for himself and his staff.
+-   Build a brand for his business to allow him to increase the size of his professional network.
+-   Expand his professional network to allow him to better serve his customers in the exchanging of hard to find and rare records.
 
 #### Motivations:
 
-- To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The stories that are shared. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
+-   To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The stories that are shared. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
 
 #### Frustrations:
 
-- His current website (much like most of his fondest memories of being on the road) is stuck in the 90s and is well overdue for an update, but Norm takes a while learning new systems and building a website is well outside his skillset. 
-- With an estmiated <strong>80-100 milk crates full of records in his exisiting inventory</strong>, Norm isn't even sure how many records he has at any given moment. It's also difficult for him to keep track of what comes and goes. There are many records that could be getting sold, but aren't even advertised on his website. Not that it would matter, as the SEO for his website is almost non-existent and it gets very little traffic.
+-   His current website (much like most of his fondest memories of being on the road) is stuck in the 90s and is well overdue for an update, but Norm takes a while learning new systems and building a website is well outside his skillset.
+-   With an estmiated <strong>80-100 milk crates full of records in his exisiting inventory</strong>, Norm isn't even sure how many records he has at any given moment. It's also difficult for him to keep track of what comes and goes. There are many records that could be getting sold, but aren't even advertised on his website. Not that it would matter, as the SEO for his website is almost non-existent and it gets very little traffic.
 
 <br>
 
@@ -437,61 +451,66 @@ Name: Norm Gleeson
 Name: Ruby Harper
 
 #### Demographic
-- 38 years old
-- Married
-- 3 children
-- Former manager of a JB Hi Fi.
-- Amateur musicain and artist.  
+
+-   38 years old
+-   Married
+-   3 children
+-   Former manager of a JB Hi Fi.
+-   Amateur musicain and artist.
 
 #### Goals:
-- To take the organisation of stock out of Norm's hands so that he can focus on what he's best at, building relationships with his customers and direct selling.
-- To have a website that at any given time has <strong>EVERY</strong> record they have in boxes and milk creates advertised to buy, swap, or sell. 
-- A stremlined process for customers to log onto their website and create a profile to track orders and addresses. This will allow for direct marketing through email, or even traditional postage of newsletters and catalogues. 
-- Expand the business so they can move to a larger premises. This will create opportunites for them to add additional income streams, such as:
-    - A cafe with a liquor license, 
-    - A small live venue suitable for album launches, listening parties, and signings,
-    - More display space for their existing stock,
 
+-   To take the organisation of stock out of Norm's hands so that he can focus on what he's best at, building relationships with his customers and direct selling.
+-   To have a website that at any given time has <strong>EVERY</strong> record they have in boxes and milk creates advertised to buy, swap, or sell.
+-   A stremlined process for customers to log onto their website and create a profile to track orders and addresses. This will allow for direct marketing through email, or even traditional postage of newsletters and catalogues.
+-   Expand the business so they can move to a larger premises. This will create opportunites for them to add additional income streams, such as:
+    -   A cafe with a liquor license,
+    -   A small live venue suitable for album launches, listening parties, and signings,
+    -   More display space for their existing stock,
 
 #### Motivations:
-- To once again thrive in a store that's main focus is music, and not a "Bing Lee with records" (which is what she believes JB Hi Fi has become.)
-- To feel a sense of pride, ownership, and community in her workplace while nurturing her love of music.  
-- To support the local scene of young and old musical talent, and become a destination that touring artists stop for a selfie for socials. 
+
+-   To once again thrive in a store that's main focus is music, and not a "Bing Lee with records" (which is what she believes JB Hi Fi has become.)
+-   To feel a sense of pride, ownership, and community in her workplace while nurturing her love of music.
+-   To support the local scene of young and old musical talent, and become a destination that touring artists stop for a selfie for socials.
 
 #### Frustrations:
-- So much unrealised potential in this business!
-- Incomplete database of stock, orders, and customers
-- A very outdated website that is quite obnoxious and ineffective. 
-- No procedures for marketing or retargeting past customers.
 
+-   So much unrealised potential in this business!
+-   Incomplete database of stock, orders, and customers
+-   A very outdated website that is quite obnoxious and ineffective.
+-   No procedures for marketing or retargeting past customers.
 
 <br>
 
 ### Persona 3
 
-Name: Atticus Hastings-Du Toit 
+Name: Atticus Hastings-Du Toit
 
 #### Demographic
-- 29 Years old
-- Single
-- 2 x "Furr Children"
-- Record collector, Audiophile, and Coffee Enthusiest. 
-- Amateur DJ and Producer. 
+
+-   29 Years old
+-   Single
+-   2 x "Furr Children"
+-   Record collector, Audiophile, and Coffee Enthusiest.
+-   Amateur DJ and Producer.
 
 #### Goals:
-- To have a large and eclectic record collection on display, including every record by Arcade Fire, Bon Iver, and Daft Punk. 
-- To create new productions with obscure songs that haven't been sampled before. 
-- To have his sound system and turn table working at their optimum at all times.
+
+-   To have a large and eclectic record collection on display, including every record by Arcade Fire, Bon Iver, and Daft Punk.
+-   To create new productions with obscure songs that haven't been sampled before.
+-   To have his sound system and turn table working at their optimum at all times.
 
 #### Motivations:
-- Always looking to expand his record collection, especially with rare and hard to find records that he can boast about. The more obscure the better.
-- Obscure records offer him an opportunity to unearth songs that haven't been sampled before when creating beats.
 
+-   Always looking to expand his record collection, especially with rare and hard to find records that he can boast about. The more obscure the better.
+-   Obscure records offer him an opportunity to unearth songs that haven't been sampled before when creating beats.
 
 #### Frustrations:
-- Can't make it into Vinyl Vibe in person as often as he would like to.
-- Wants to be able to search a catalogue of Norm's records from home, and purchase online.  
-<br>
+
+-   Can't make it into Vinyl Vibe in person as often as he would like to.
+-   Wants to be able to search a catalogue of Norm's records from home, and purchase online.  
+    <br>
 
 ### Persona 4
 
@@ -500,44 +519,50 @@ Name: Atticus Hastings-Du Toit
 Name: Diego Navarro
 
 #### Demographic
-- 64 Years old
-- Married
-- 4 kids
-- Former roadie for Pearl Jam who became friends with Norm on a Screaming Jets USA tour in the early 90s.
-- Owns <strong>The Needle Drop</strong>, a similar store to Vinyl Vibe in Seatle, WA. 
-- Decades of industry knowledge and another extremely large and mostly uncatalogued collection of rare and hard to find records. 
-- Regularly in contact with Norm (by phone call) to trade and find records for his customer base. 
-- Would buy from Norm more regularly if it were easier to see his stock levels on an up-to-date and easy to navigate website. Not having to call at 3am would be a bonus too. 
-- Potential customer for a website like the one being made for Vinyl Vibe. 
+
+-   64 Years old
+-   Married
+-   4 kids
+-   Former roadie for Pearl Jam who became friends with Norm on a Screaming Jets USA tour in the early 90s.
+-   Owns <strong>The Needle Drop</strong>, a similar store to Vinyl Vibe in Seatle, WA.
+-   Decades of industry knowledge and another extremely large and mostly uncatalogued collection of rare and hard to find records.
+-   Regularly in contact with Norm (by phone call) to trade and find records for his customer base.
+-   Would buy from Norm more regularly if it were easier to see his stock levels on an up-to-date and easy to navigate website. Not having to call at 3am would be a bonus too.
+-   Potential customer for a website like the one being made for Vinyl Vibe.
 
 #### Goals
-- Same goals as Norm, but specifically and in addition:
-- Create a website that can reciprocate the service that Vinyl Vibes website will provide for him. 
+
+-   Same goals as Norm, but specifically and in addition:
+-   Create a website that can reciprocate the service that Vinyl Vibes website will provide for him.
 
 #### Motivations:
-- Grow his business to the cult like status that Vinyl Vibes has achieved.
-- Much like Norm, share his knowledge and passion for music with the record enthusiest community. 
-- Refine a reciprocal agreement with Vinyl Vibe where they share resources. Due to his location and local knowledge, Diego has access to a lot of early Grunge and Alternative Records that didn't make it to Australia. Similarly, Norm has access to a lot of Pub Rock, New Wave, and Underground records from Australia that are even more rare in Seattle. 
+
+-   Grow his business to the cult like status that Vinyl Vibes has achieved.
+-   Much like Norm, share his knowledge and passion for music with the record enthusiest community.
+-   Refine a reciprocal agreement with Vinyl Vibe where they share resources. Due to his location and local knowledge, Diego has access to a lot of early Grunge and Alternative Records that didn't make it to Australia. Similarly, Norm has access to a lot of Pub Rock, New Wave, and Underground records from Australia that are even more rare in Seattle.
+
 #### Frustrations:
+
 <br>
 
 ### User Story 1
 
 <strong>As the owner of Vinyl Vibe,</strong>
-* I want to attract new customers from outside my local area with a method of purchasing my stock for shipping.  
-* I need branding that reflects my desire to be viewed as a modern business with decades of expertise in my field.
-* I need a method to properly catalogue my ever changing stock of records, turntables, parts, and accessories. 
 
+-   I want to attract new customers from outside my local area with a method of purchasing my stock for shipping.
+-   I need branding that reflects my desire to be viewed as a modern business with decades of expertise in my field.
+-   I need a method to properly catalogue my ever changing stock of records, turntables, parts, and accessories.
 
 <br>
 
 ### User Story 2
 
 <strong>As a Vinyl Vibe's manager,</strong>
-* I want to grow our business through serving our customers much better than we have been. 
-* I want a simple to use backend for the website that allows me to catalogue and advertise the vast stock of records we have at any given time. 
-* I want to be able to retarget our previous customers to advertise small events and listening parties that will get people into the store, where they're more likely to buy records. 
-* We need to be able to effectively advertise to the people outside of our local area chasing very hard to find records that we currently have in stock, but not advertised. 
+
+-   I want to grow our business through serving our customers much better than we have been.
+-   I want a simple to use backend for the website that allows me to catalogue and advertise the vast stock of records we have at any given time.
+-   I want to be able to retarget our previous customers to advertise small events and listening parties that will get people into the store, where they're more likely to buy records.
+-   We need to be able to effectively advertise to the people outside of our local area chasing very hard to find records that we currently have in stock, but not advertised.
 
 <br>
 
@@ -551,24 +576,23 @@ User Story 3 details here...
 
 User Story 4 details here...
 <br>
----
 
+---
 
 <details>
   <summary>Image References</summary>
 
   <br>
 
-  - Reference 1
-    
+-   Reference 1
+
     <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
 
     <br>
-      
-  - Reference 2
-    
+
+-   Reference 2
     <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
-</details>
+    </details>
 
 ---
 
@@ -588,23 +612,27 @@ The following site map outlines the complete structure of our application:
 
 We designed three breakpoints for the following devices:
 
-- Mobile
-- Tablet
-- Desktop
+-   Mobile
+-   Tablet
+-   Desktop
 
+You can view the Figma file [here](https://www.figma.com/design/FcoiuafqXz3Ca4uVnaOFhp/%5BCODER-ACADEMY%5D-Ecommerce-App?node-id=14-65499&node-type=canvas).
 
-### **Desktop view (PLACEHOLDER)**
+### **Desktop view**
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-desktop.png)
 
-### **Tablet view (PLACEHOLDER)**
+### **Tablet view**
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-tablet.png)
 
-### **Mobile view (PLACEHOLDER)**
+### **Mobile view**
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-mobile.png)
 
+### **Hi-Fi Wireframe**
+
+![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-hi-fi.png)
 <br>
 
 ## Task Management and Project Progress
