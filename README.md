@@ -470,10 +470,27 @@ Name: Ruby Harper
 ### Persona 3
 
 Name: Atticus Hastings-Du Toit 
+
 #### Demographic
+- 29 Years old
+- Single
+- 2 x "Furr Children"
+- Record collector, Audiophile, and Coffee Enthusiest. 
+- Amateur DJ and Producer. 
+
 #### Goals:
+- To have a large and eclectic record collection on display, including every record by Arcade Fire, Bon Iver, and Daft Punk. 
+- To create new productions with obscure songs that haven't been sampled before. 
+- To have his sound system and turn table working at their optimum at all times.
+
 #### Motivations:
+- Always looking to expand his record collection, especially with rare and hard to find records that he can boast about. The more obscure the better.
+- Obscure records offer him an opportunity to unearth songs that haven't been sampled before when creating beats.
+
+
 #### Frustrations:
+- Can't make it into Vinyl Vibe in person as often as he would like to.
+- Wants to be able to search a catalogue of Norm's records from home, and purchase online.  
 <br>
 
 ### Persona 4
@@ -487,8 +504,8 @@ Name: Diego Navarro
 - Married
 - 4 kids
 - Former roadie for Pearl Jam who became friends with Norm on a Screaming Jets USA tour in the early 90s.
-- Owns a similar store to Vinyl Vibe in Seatle, WA. 
-- Decades of industry knowledge and another extremely largely uncatalogued collection of rare and hard to find records. 
+- Owns <strong>The Needle Drop</strong>, a similar store to Vinyl Vibe in Seatle, WA. 
+- Decades of industry knowledge and another extremely large and mostly uncatalogued collection of rare and hard to find records. 
 - Regularly in contact with Norm (by phone call) to trade and find records for his customer base. 
 - Would buy from Norm more regularly if it were easier to see his stock levels on an up-to-date and easy to navigate website. Not having to call at 3am would be a bonus too. 
 - Potential customer for a website like the one being made for Vinyl Vibe. 
@@ -498,6 +515,9 @@ Name: Diego Navarro
 - Create a website that can reciprocate the service that Vinyl Vibes website will provide for him. 
 
 #### Motivations:
+- Grow his business to the cult like status that Vinyl Vibes has achieved.
+- Much like Norm, share his knowledge and passion for music with the record enthusiest community. 
+- Refine a reciprocal agreement with Vinyl Vibe where they share resources. Due to his location and local knowledge, Diego has access to a lot of early Grunge and Alternative Records that didn't make it to Australia. Similarly, Norm has access to a lot of Pub Rock, New Wave, and Underground records from Australia that are even more rare in Seattle. 
 #### Frustrations:
 <br>
 
