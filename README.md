@@ -292,76 +292,108 @@ These packages and their dependencies work together to provide a robust, secure,
 
 External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
 
-1. User
-
+User
 -   Represents the customer interacting with the eCommerce store.
 -   Actions:
-    -   Authenticates to log in or register.
+    -   Authenticates to log in or register
     -   Browse products
     -   Add items to shopping cart
     -   Proceed to checkout
     -   Payment
 
-2. Admin
-
+Admin
 -   Represents the store administrator who can manage the store and perform CRUD operations.
 -   Actions:
-    -   Manages Product, Orders and Users via CRUD operations.
+    -   Manages Product, Orders and Users via CRUD operations
     -   View the admin dashboard tools
 
-3. Payment Gateway (Stripe)
+Guest
+- Represents a guest browsing the store without logging in.
+- Actuons:
+    - Browse products
+    - Add items to shopping cart
+    - Proceed to checkout (Checkout will then require login)
 
+Payment Gateway (Stripe)
 -   Third party service used to securely process payments.
 -   Actions:
-    -   Processes payment details submitted by customer during checkout.
-    -   Returns a payment confirmation or failure status.
+    -   Processes payment details submitted by customer during checkout
+    -   Returns a payment confirmation or failure status
 
-4. Email service (Resend)
+Email service (Resend)
 
 -   Third party email service used for sending transactional emails.
 -   Actions:
-    -   Sends order confirmation emails to the customer upon successful order payment.
-    -   Sends additional updates related to orders or account activities.
+    -   Sends order confirmation emails to the customer upon successful order payment
+    -   Sends additional updates related to orders or account activities
 
 ### Processes
 
 Processes represent the core operations or functions that process, manipulate, or route data within the system.
 
-1. User Authentication
+User Signup (1)
+- Users can signup with a new login to the website
+- Inputs: New login credentials (email and password)
+- Outputs: Successful user creation
 
--   Validates user credentials during login or registration.
--   Inputs: login credentials (email and password).
--   Outputs: Authentication token (JWT) on success or error message on failure.
+User Login (1.5)
+- The standard user login which can access all areas of the website excluding the admin dashboard.
+- Inputs: Login credentials (email and password)
+- Outputs: Successful JWT token for a User login.
 
-2. Product Management (Admin)
+Admin Login (1.5)
+- Admin role able to access all areas of website including admin dashboard
+- Inputs: Login credentials (email and password)
+- Outputs: Successful JWT token for Admin login.
 
--   Manages the product inventory.
--   Inputs: Admin provided product data for CRUD operations.
--   Outputs: Updated product information stored in the database.
+ User Authentication (2)
+- Validates user credentials during login or registration.
+- Inputs: login credentials (email and password).
+- Outputs: Authentication token (JWT) on success or error message on failure.
 
-3. Shopping Cart
+Add to Cart (3)
+- Adds products to shopping cart to view and use for checkout.
+- Inputs: Product data
+- Outputs: Adds product data to cart
 
--   Handles the user's shopping cart operations.
--   Inputs: Product selections (add, remove, modify quantities).
--   Outputs: List of selected items with quantities and pricing.
+Shopping cart (4)
+- Handles the uesr's shopping cart operations. Shows a list of products that have been added to cart, with product details (Price, SKU, Quantity, etc).
+- Inputs: Product selections (add, remove, modify quantities).
+- Outputs: List of selected items with quantities and pricing.
 
-4. Checkout and Payment
+Checkout and Payment (5)
+- Manages the checkout process and interfaces with the payment gateway (via stripe).
+- Inputs: Shopping cart details and payment details.
+- Outputs: Order confirmation on success or error message on failure.
 
--   Manages the checkout process and interfaces with the payment gateway (via stripe).
--   Inputs: Shopping cart details and payment details.
--   Outputs: Order confirmation on success or error message on failure.
+Successful Order Page (6)
+- Confirmation of payment and successful order placed
 
-5. Order Management
+Continue Shopping (7)
+- Users can opt to 'continue shopping' or browse the website with a fresh cart.
 
+### Processes Cont. (Admin Dashboard) 
+
+Admin Dashboard
+-   Provides the admin with tools for managing the store via CRUD operations.
+-   Inputs: Admin actions for product, user and order management.
+-   Outputs: Updated product, user and order details displayed and stored.
+
+Product Management
+- Manages the product inventory.
+- Inputs: Admin provided product data for CRUD operations.
+- Outputs: Updated product information stored in the database.
+
+
+Order Management
 -   Handles order creation and tracking.
 -   Inputs: Shopping cart details, payment confirmation and user info.
 -   Outputs: Order record stored in the database, confirmation email sent to the user. (resend)
 
-6. Admin Dashboard
-
--   Provides the admin with tools for managing the store via CRUD operations.
--   Inputs: Admin actions for product, user and order management.
--   Outputs: Updated product, user and order details displayed and stored.
+User Management
+- Manage the user database
+- Inputs: Admin provides user data for CRUD operations.
+- Outputs: Updated user information stored in the database.
 
 ### Data Stores
 
