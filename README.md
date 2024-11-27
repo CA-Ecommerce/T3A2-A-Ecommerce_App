@@ -410,7 +410,7 @@ Name: Norm Gleeson
 - 66 years old
 - Divorced
 - No children
-- Former Musician and Roadie for The Angels turned Record Store Owner.
+- Former Musician and Roadie for The Screaming Jets turned Record Store Owner.
 
 #### Goals:
 
@@ -432,7 +432,7 @@ Name: Norm Gleeson
 
 ### Persona 2
 
-#### Shop Manager/Webmaster
+#### Store Manager/Webmaster
 
 Name: Ruby Harper
 
@@ -451,7 +451,6 @@ Name: Ruby Harper
     - A cafe with a liquor license, 
     - A small live venue suitable for album launches, listening parties, and signings,
     - More display space for their existing stock,
- 
 
 
 #### Motivations:
@@ -462,7 +461,7 @@ Name: Ruby Harper
 #### Frustrations:
 - So much unrealised potential in this business!
 - Incomplete database of stock, orders, and customers
-- A very outdated website that is quite obnoxious. 
+- A very outdated website that is quite obnoxious and ineffective. 
 - No procedures for marketing or retargeting past customers.
 
 
@@ -470,19 +469,41 @@ Name: Ruby Harper
 
 ### Persona 3
 
-Hobbiest/Collector
-
+Name: Atticus Hastings-Du Toit 
+#### Demographic
+#### Goals:
+#### Motivations:
+#### Frustrations:
 <br>
 
 ### Persona 4
 
+#### Shop Owner
 
+Name: Diego Navarro
 
+#### Demographic
+- 64 Years old
+- Married
+- 4 kids
+- Former roadie for Pearl Jam who became friends with Norm on a Screaming Jets USA tour in the early 90s.
+- Owns a similar store to Vinyl Vibe in Seatle, WA. 
+- Decades of industry knowledge and another extremely largely uncatalogued collection of rare and hard to find records. 
+- Regularly in contact with Norm (by phone call) to trade and find records for his customer base. 
+- Would buy from Norm more regularly if it were easier to see his stock levels on an up-to-date and easy to navigate website. Not having to call at 3am would be a bonus too. 
+- Potential customer for a website like the one being made for Vinyl Vibe. 
+
+#### Goals
+- Same goals as Norm, but specifically and in addition:
+- Create a website that can reciprocate the service that Vinyl Vibes website will provide for him. 
+
+#### Motivations:
+#### Frustrations:
 <br>
 
 ### User Story 1
 
-<strong>As a Record Store owner,</strong>
+<strong>As the owner of Vinyl Vibe,</strong>
 * I want to attract new customers from outside my local area with a method of purchasing my stock for shipping.  
 * I need branding that reflects my desire to be viewed as a modern business with decades of expertise in my field.
 * I need a method to properly catalogue my ever changing stock of records, turntables, parts, and accessories. 
@@ -492,7 +513,7 @@ Hobbiest/Collector
 
 ### User Story 2
 
-<strong>As a Record Store owner,</strong>
+<strong>As a Vinyl Vibe's manager,</strong>
 * I want to grow our business through serving our customers much better than we have been. 
 * I want a simple to use backend for the website that allows me to catalogue and advertise the vast stock of records we have at any given time. 
 * I want to be able to retarget our previous customers to advertise small events and listening parties that will get people into the store, where they're more likely to buy records. 
@@ -506,7 +527,12 @@ User Story 3 details here...
 
 <br>
 
+### User Story 4
+
+User Story 4 details here...
+<br>
 ---
+
 
 <details>
   <summary>Image References</summary>
