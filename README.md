@@ -64,73 +64,80 @@ Key aspects include:
 
 ### MVP Features
 
-1. **User Authentication and Management**
+1. **Shopping Experience**
+
+    - Intuitive shopping cart
+    - Mobile-responsive design
+    - Cart persistence
+    - Product catalog with detailed information
+    - Multiple product images
+    - Basic product filtering
+    - Basic sorting options
+    - Search functionality
+
+<br>
+
+2. **Payment and Checkout**
+
+    - Handoff to Stripe for payment processing
+    - Basic email notifications/confirmations
+
+<br>
+
+3. **User Authentication and Management**
 
     - Secure registration and login system
     - JWT-based authentication
     - Password reset via email
-    - User profile management
     - Role-based access (Customer/Admin)
-    - Order history tracking
+    - User profile management
     - Address management
+    - Order/transaction history
 
-2. **Product Management**
+<br>
 
-    - Product catalog with detailed information
-    - Multiple product images
-    - Category organization
-    - Search functionality
-    - Stock level tracking
-    - Product availability status
-    - Basic sorting options
+4. **Admin Management Features**
 
-3. **Shopping Experience**
-
-    - Intuitive shopping cart
-    - Real-time stock updates
-    - Mobile-responsive design
-    - Product image galleries
-    - Cart persistence
-    - Guest checkout option
-    - Basic product filtering
-
-4. **Payment and Checkout**
-
-    - Stripe payment integration
-    - Secure checkout process
-    - Order confirmation system
-    - Email notifications
-    - Basic shipping options
-    - Order tracking
-    - Transaction history
-
-5. **Admin Features**
     - Product CRUD operations
-    - Basic inventory management
-    - Order processing system
-    - Category management
+    - Order CRUD operations
+    - Customer CRUD operations
+    - Search functionality
 
-### Additional Features (Post-MVP)
+<br>
 
-1. **Enhanced Shopping Features**
+### Additional Enhanced Features (Post-MVP)
+
+1. **Enhanced Shopping Experience Features**
 
     - Product reviews and ratings
     - Wishlist functionality
     - Recently viewed products
     - Social sharing
+    - Real-time stock updates
 
-2. **Advanced Commerce Features**
+<br>
 
+2. **Enhanced Payment and Checkout Features**
+    - Custom checkout flow
     - Multiple payment methods
     - Discount code system
+    - Guest checkout option
+    - Shipping options
 
-3. **Advanced Admin Tools**
+<br>
+
+3. **Enhanced User Authentication and Management Features**
+    - Order tracking
+
+<br>
+
+4. **Enhanced Admin Management Features**
     - Advanced analytics
-    - Bulk product management
-    - Advanced user management
     - Sales reports
-    - Customer insights
-    - Staff accounts
+    - Bulk product management
+    - Inventory management
+
+<br>
 
 Each feature is designed to enhance the overall shopping experience while providing businesses with powerful tools to manage their online presence effectively.
 
@@ -189,6 +196,14 @@ The E-commerce Store utilises carefully selected technologies that work together
 
 <br>
 
+-   `Bruno` (version 1.35.0)
+
+    -   bruno-api
+
+    Bruno is a tool that allows us to test our API endpoints and ensure they are working as expected. It provides a user-friendly interface for sending requests and viewing responses, making it easier to debug and develop our API.
+
+<br>
+
 ### Frontend
 
 -   `React` (version 18.2.0)
@@ -205,6 +220,18 @@ The E-commerce Store utilises carefully selected technologies that work together
     -   @vitejs/plugin-react
 
     Vite significantly improves our development workflow with its lightning-fast hot module replacement and optimised build process. This means faster development cycles and better performance for our customers, crucial for maintaining a competitive e-commerce platform.
+
+<br>
+
+-   `Axios` (version 1.6.7)
+
+    For handling API communications, Axios provides a robust solution with features like request/response interceptors and automatic JSON transformation. This is crucial for maintaining smooth communication between our frontend and backend, especially for operations like cart updates and order processing.
+
+<br>
+
+-   `Zustand` (version 4.5.4)
+
+    Zustand is a state management library that provides a simple and efficient way to manage state in our React application. It allows us to create and share global state variables across components, making it easier to maintain a consistent and responsive user interface.
 
 <br>
 
@@ -237,12 +264,6 @@ The E-commerce Store utilises carefully selected technologies that work together
 
 <br>
 
--   `Axios` (version 1.6.7)
-
-    For handling API communications, Axios provides a robust solution with features like request/response interceptors and automatic JSON transformation. This is crucial for maintaining smooth communication between our frontend and backend, especially for operations like cart updates and order processing.
-
-<br>
-
 ### Development
 
 -   `nodemon` (version 3.0.3)
@@ -259,8 +280,8 @@ The E-commerce Store utilises carefully selected technologies that work together
 
 ### Deployment Services
 
--   `Vercel`
-    For our e-commerce frontend, Vercel is the ideal choice due to its seamless integration with React applications. Its zero-configuration deployment process means we can focus more on developing features rather than dealing with deployment complexities. The platform's edge network ensures our store loads quickly for customers worldwide, while the automatic preview deployments for each pull request enable our team to confidently review changes before they go live. The built-in analytics help us understand user behaviour and optimise the shopping experience.
+-   `Netlify`
+    For our e-commerce frontend, Netlify is the ideal choice due to its seamless integration with React applications. Its zero-configuration deployment process means we can focus more on developing features rather than dealing with deployment complexities. The platform's edge network ensures our store loads quickly for customers worldwide, while the automatic preview deployments for each pull request enable our team to confidently review changes before they go live. The built-in analytics help us understand user behaviour and optimise the shopping experience.
 
 <br>
 
@@ -303,7 +324,7 @@ Admin
 
 Guest
 - Represents a guest browsing the store without logging in.
-- Actuons:
+- Actions:
     - Browse products
     - Add items to shopping cart
     - Proceed to checkout (Checkout will then require login)
@@ -414,8 +435,8 @@ Where the data is stored in the system and is accessed or updated by the process
 <br>
 
 ## Application Architecture Diagram
-![Application Architchture Diagram](/docs/application-architechture-diagram/app-arch-3.png)
-![Application Architchture Diagram Description](/docs/application-architechture-diagram/app-arch-2.png)
+![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-3.png)
+![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-2.png)
 <br>
 
 
