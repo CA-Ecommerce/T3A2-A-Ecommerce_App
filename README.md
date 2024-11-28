@@ -147,7 +147,8 @@ The E-commerce Store utilises carefully selected technologies that work together
     -   body-parser
     -   cors
     -   compression
-        We chose Express.js as our backend framework for its minimalist yet powerful approach. Its middleware system is perfect for our e-commerce needs, allowing us to easily implement authentication, request processing, and error handling. The large ecosystem of middleware packages helps us solve common e-commerce challenges like CORS for secure client-server communication and compression for faster response times.
+    
+    We chose Express.js as our backend framework for its minimalist yet powerful approach. Its middleware system is perfect for our e-commerce needs, allowing us to easily implement authentication, request processing, and error handling. The large ecosystem of middleware packages helps us solve common e-commerce challenges like CORS for secure client-server communication and compression for faster response times.
 
 <br>
 
@@ -413,11 +414,12 @@ Where the data is stored in the system and is accessed or updated by the process
 
 <br>
 
-Explanation of application architecture here...
-
-**--IMAGE of Application Architecture Diagram--**
-
+## Application Architecture Diagram
+![Application Architchture Diagram](/docs/application-architechture-diagram/app-arch-1.png)
+![Application Architchture Diagram Description](/docs/application-architechture-diagram/app-arch-2.png)
 <br>
+
+
 
 ## User Stories & Personas
 
@@ -724,3 +726,5 @@ The board is organised into the following lists:
 
 <br>
 <br>
+
+
