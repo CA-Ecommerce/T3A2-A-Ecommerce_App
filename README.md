@@ -281,8 +281,7 @@ These packages and their dependencies work together to provide a robust, secure,
 
 ## Dataflow & Application Architecture
 
-![Dataflow_Diagram_V3](docs/Dataflow-Diagram/dataflow_diagram_V3.JPG)
-
+![Dataflow_Diagram_V4](docs/Dataflow-Diagram/dataflow_diagram_V4.JPG)
 ### External Entities
 External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
 
