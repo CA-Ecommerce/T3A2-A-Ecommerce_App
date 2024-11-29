@@ -435,7 +435,7 @@ Where the data is stored in the system and is accessed or updated by the process
 <br>
 
 ## Application Architecture Diagram
-![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-3.png)
+![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-1.png)
 ![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-2.png)
 <br>
 
