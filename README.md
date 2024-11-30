@@ -455,7 +455,7 @@ Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vib
 Norm needs an effective modern website that can connect and sell to their customers, be they local, interstate, or international!
 
 ### Persona 1
-
+![Persona 1](/docs/user-stories/user-stories-1.png)
 #### Shop Owner
 
 Name: Norm Gleeson
@@ -486,7 +486,7 @@ Name: Norm Gleeson
 <br>
 
 ### Persona 2
-
+![Persona 2](/docs/user-stories/user-stories-2.png)
 #### Store Manager/Webmaster
 
 Name: Ruby Harper
@@ -526,7 +526,7 @@ Name: Ruby Harper
 <br>
 
 ### Persona 3
-
+![Persona 3](/docs/user-stories/user-stories-3.png)
 Name: Atticus Hastings-Du Toit
 
 #### Demographic
@@ -556,7 +556,7 @@ Name: Atticus Hastings-Du Toit
     <br>
 
 ### Persona 4
-
+![Persona 4](/docs/user-stories/user-stories-4.png)
 #### Shop Owner
 
 Name: Diego Navarro
