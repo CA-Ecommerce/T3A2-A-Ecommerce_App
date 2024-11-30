@@ -454,6 +454,7 @@ Word of the treasure trove of rare and hard to find records at <strong>Vinyl Vib
 
 Norm needs an effective modern website that can connect and sell to their customers, be they local, interstate, or international!
 
+
 ### Persona 1
 ![Persona 1](/docs/user-stories/user-stories-1.png)
 <br>
@@ -470,7 +471,7 @@ Norm needs an effective modern website that can connect and sell to their custom
 ![Persona 4](/docs/user-stories/user-stories-4.png)
 <br>
 
-
+NB: Please find the first text based draft of Persona 1's user story below in Reference 2. 
 
 ---
 
@@ -484,7 +485,11 @@ Norm needs an effective modern website that can connect and sell to their custom
     <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
 
     <br>
+-   Reference 2
 
+    <img src="docs/user-stories/reference-2.png" alt="First Draft of Persona 1" width="300">
+
+    <br>
 ---
 
 <br>
