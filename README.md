@@ -456,178 +456,21 @@ Norm needs an effective modern website that can connect and sell to their custom
 
 ### Persona 1
 ![Persona 1](/docs/user-stories/user-stories-1.png)
-#### Shop Owner
-
-Name: Norm Gleeson
-
-#### Demographic:
-
--   66 years old
--   Divorced
--   No children
--   Former Musician and Roadie for The Screaming Jets turned Record Store Owner.
-
-#### Goals:
-
--   Share his passion for music with the expanding community of music lovers, collectors, and audiophiles who purchase records and turntables from his shop.
--   Expand his busisness to provide a more stable income for himself and his staff.
--   Build a brand for his business to allow him to increase the size of his professional network.
--   Expand his professional network to allow him to better serve his customers in the exchanging of hard to find and rare records.
-
-#### Motivations:
-
--   To help his customers discover the simple joy of listening to a vinyl record. To learn to appreciate the work that has gone into a piece of art. The stories that are shared. The sound quality, the hiss and crackle, and the experience of not being distracted with skip buttons, fast forward and the overwhelm of endless options and advertising on streaming services.
-
-#### Frustrations:
-
--   His current website (much like most of his fondest memories of being on the road) is stuck in the 90s and is well overdue for an update, but Norm takes a while learning new systems and building a website is well outside his skillset.
--   With an estmiated <strong>80-100 milk crates full of records in his exisiting inventory</strong>, Norm isn't even sure how many records he has at any given moment. It's also difficult for him to keep track of what comes and goes. There are many records that could be getting sold, but aren't even advertised on his website. Not that it would matter, as the SEO for his website is almost non-existent and it gets very little traffic.
-
 <br>
 
 ### Persona 2
 ![Persona 2](/docs/user-stories/user-stories-2.png)
-#### Store Manager/Webmaster
-
-Name: Ruby Harper
-
-#### Demographic
-
--   38 years old
--   Married
--   3 children
--   Former manager of a JB Hi Fi.
--   Amateur musicain and artist.
-
-#### Goals:
-
--   To take the organisation of stock out of Norm's hands so that he can focus on what he does best, building relationships with his customers and direct selling.
--   To have a website that at any given time has <strong>EVERY</strong> record they have in boxes and milk creates advertised to buy. Titles should also be searchable.
--   A stremlined process for customers to log onto their website and create a profile to track orders and addresses. This will allow for direct marketing through email, or even traditional postage of newsletters and catalogues.
--   Expand the business so they can move to a larger premises. This will create opportunites for them to add additional income streams, such as:
-    -   A cafe with a liquor license,
-    -   A small live venue suitable for album launches, listening parties, and signings,
-    -   More display space for their existing stock,
-
-#### Motivations:
-
--   To once again thrive in a store that's main focus is music, and not a "Bing Lee with records" (which is what she believes JB Hi Fi has become.)
--   To feel a sense of pride, ownership, and community in her workplace while nurturing her passion for music.
-- To form lifetime connections with local independent musicians, giving them a place to stock and sell their music to the world. 
-- To become a destination that touring artists stop for promotions and signings.
-
-#### Frustrations:
-
--   So much unrealised potential in this business!
--   Incomplete database of stock, orders, and customers.
--   A very outdated website that is quite obnoxious and ineffective.
--   No procedures for marketing or retargeting past customers.
-
 <br>
 
 ### Persona 3
 ![Persona 3](/docs/user-stories/user-stories-3.png)
-Name: Atticus Hastings-Du Toit
-
-#### Demographic
-
--   29 Years old
--   Single
--   2 x "Furr Children"
--   Record collector, Audiophile, and Coffee Enthusiest.
--   Amateur DJ and Producer.
-
-#### Goals:
-
--   To have a large and eclectic record collection on display in his house, including every record by Arcade Fire, Bon Iver, and Daft Punk.
--   To create new productions with obscure songs that haven't been sampled before.
--   To have his sound system and turn table working at their optimum at all times.
-
-#### Motivations:
-
--   Always looking to expand his record collection, especially with rare and hard to find records that he can boast about. The more obscure the better.
--   Obscure records offer him an opportunity to unearth songs that haven't been sampled before when creating beats.
-
-#### Frustrations:
-
--   Can't make it into Vinyl Vibe in person as often as he would like to.
--   Wants to be able to search a catalogue of Norm's records from home, and purchase online. 
-- Has a network of collectors that he would happily refer to Vinyl Vibe, but they don't live in the area.  
-    <br>
+<br>
 
 ### Persona 4
 ![Persona 4](/docs/user-stories/user-stories-4.png)
-#### Shop Owner
-
-Name: Diego Navarro
-
-#### Demographic
-
--   64 Years old
--   Married
--   4 kids
--   Former roadie for Pearl Jam who became friends with Norm on a Screaming Jets USA tour in the early 90s.
--   Has recently opened <strong>The Needle Drop</strong>, a similar store to Vinyl Vibe in Seatle, Washington, USA.
--   Decades of industry knowledge and another extremely large and mostly uncatalogued collection of rare and hard to find records.
--   Potential customer for a website like the one being made for Vinyl Vibe.
-
-#### Goals
-
--   Same goals as Norm, but specifically and in addition:
--   Create a website that can reciprocate the service that Vinyl Vibes website will provide for him. 
-
-#### Motivations:
-
--   Grow his business to the cult like status that Vinyl Vibes has achieved.
--   Much like Norm, share his knowledge and passion for music with the record enthusiest community.
--   Refine a reciprocal agreement with Vinyl Vibe where they share resources. NB: Due to his location, local knowledge, and network, Diego has access to a lot of early Grunge and Alternative Records that didn't make it to Australia. Similarly, Norm has access to a lot of even rarer Pub Rock, New Wave, and Underground records from Australia that have never made it outside of the Southern Hemisphere that have become quite reveered by collectors in Seattle. 
-
-#### Frustrations:
--   Regularly in contact with Norm (by phone call) to trade and find records for his customer base.
--   Would buy from Norm more regularly if it were easier to see his stock levels on an up-to-date and easy to navigate website. Not having to call at 3am would be a bonus too.
 <br>
 
-### User Story 1
 
-<strong>As the owner of Vinyl Vibe,</strong>
-
--   I want to attract new customers from outside my local area with a method of purchasing my stock for shipping.
--   I need branding that reflects my desire to be viewed as a modern business with decades of expertise in my field.
--   I need a method to properly catalogue my ever changing stock of records, turntables, parts, and accessories.
-
-<br>
-
-### User Story 2
-
-<strong>As a Vinyl Vibe's manager,</strong>
-
--   I want to grow our business through serving our customers much better than we have been.
--   I want a simple to use backend for the website that allows me to catalogue and advertise the vast stock of records, turn tables, parts and accessories we have at any given time.
--   I want to be able to retarget our previous customers to advertise sales,small events, and listening parties that will get people into the store where they're more likely to buy records.
--   We need to be able to effectively advertise to the people outside of our local area chasing very hard to find records that we currently have in stock, but not advertised.
-
-<br>
-
-### User Story 3
-
-As a cutsomer of Vinyl Vibe,
-
-- I want to be able to search their catalogue from my phone and make purchases from wherever I am. 
-- I want to be able to recommend them to other people from the record colleting communtiy so the store can thrive. 
-- I want Vinyl Vibe to grow even bigger so I can say that I knew about and used to go there before it was mainstream.....
-
-<br>
-
-### User Story 4
-
-As the owner of The Needle Drop in Seattle, 
-
-- I want to see how a modern website works out for Vinyl Vibe before I commit to the investment myself.
-- I want a website that is going to allow me to advertise to my potential customer base all over the world.
-- I want to keep support the industry that has supported me and enriched my life. 
-- I want to expand my business so that I can move to a larger premises and create more product lines and income streams. 
-- I want a business that my family can run without me micro managing! I just want to oversee the store, hangout, and sell. 
-<br>
 
 ---
 
@@ -641,10 +484,6 @@ As the owner of The Needle Drop in Seattle,
     <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
 
     <br>
-
--   Reference 2
-    <img src="docs/user-stories/reference-1.png" alt="Groovy Records Webpage Reference" width="300">
-    </details>
 
 ---
 
