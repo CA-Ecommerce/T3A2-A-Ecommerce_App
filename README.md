@@ -21,14 +21,12 @@ Key aspects include:
 ## Table of Contents
 
 -   [Features and Functionality](#features-and-functionality)
-
     -   [MVP Features](#mvp-features)
     -   [Additional Features](#additional-enhanced-features-post-mvp)
 
 <br>
 
 -   [Packages, Dependencies and Third-Party Services](#packages-dependencies-and-third-party-services)
-
     -   [Backend](#backend)
     -   [Frontend](#frontend)
     -   [Development](#development)
@@ -37,26 +35,29 @@ Key aspects include:
 <br>
 
 -   [Dataflow and Application Architecture](#dataflow-and-application-architecture)
-
     -   [Dataflow Diagram](#dataflow-diagram)
     -   [Application Architecture Diagram](#application-architecture-diagram)
 
 <br>
 
--   [User Stories & Personas](#user-stories-and-personas)
-
+-   [User Stories & Personas](#user-stories--personas)
     -   [Persona 1](#persona-1)
     -   [Persona 2](#persona-2)
     -   [Persona 3](#persona-3)
-    -   [User Story 1](#user-story-1)
-    -   [User Story 2](#user-story-2)
-    -   [User Story 3](#user-story-3)
+    -   [Persona 4](#persona-4)
+
+<br>
+
+-   [Site Map](#site-map)
+
+<br>
+
+-   [Wire Frames](#wire-frames)
 
 <br>
 
 -   [Task Management and Project Progress](#task-management-and-project-progress)
     -   [Trello Board](#trello-board)
-    -   [Key Milestones](#key-milestones)
 
 <br>
 
@@ -437,13 +438,16 @@ Where the data is stored in the system and is accessed or updated by the process
 
 <br>
 
-## Application Architecture Diagram
+### Application Architecture Diagram
+
 ![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-diagram.png)
+
 ![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-frontend.png)
+
 ![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-backend.png)
+
 <br>
-
-
+<br>
 
 ## User Stories & Personas
 
@@ -460,18 +464,22 @@ Norm needs an effective modern website that can connect and sell to their custom
 
 ### Persona 1
 ![Persona 1](/docs/user-stories/user-stories-1.png)
+
 <br>
 
 ### Persona 2
 ![Persona 2](/docs/user-stories/user-stories-2.png)
+
 <br>
 
 ### Persona 3
 ![Persona 3](/docs/user-stories/user-stories-3.png)
+
 <br>
 
 ### Persona 4
 ![Persona 4](/docs/user-stories/user-stories-4.png)
+
 <br>
 
 NB: Please find the first text based draft of Persona 1's user story below in Reference 2. 
@@ -534,6 +542,7 @@ You can view the Figma file [here](https://www.figma.com/design/FcoiuafqXz3Ca4uV
 ### **Hi-Fi Wireframe**
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-hi-fi.png)
+
 <br>
 
 ## Task Management and Project Progress
@@ -570,32 +579,6 @@ The board is organised into the following lists:
 
 ---
 
-<br>
-
-### Key Milestones
-
-1. Project Initialisation
-
-    - Task here
-
-2. MVP Features (Frontend)
-
-    - Task here
-
-3. MVP Features (Backend)
-
-    - Task here
-
-4. Stretch Features
-
-    - Task here
-
-5. Documentation and Deployment
-    - Write API documentation
-    - Prepare deployment scripts
-    - Finalize README and user guide
-
-<br>
 <br>
 
 
