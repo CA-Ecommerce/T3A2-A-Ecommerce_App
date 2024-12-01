@@ -490,6 +490,8 @@ NB: Please find the first text based draft of Persona 1's user story below in Re
     <img src="docs/user-stories/reference-2.png" alt="First Draft of Persona 1" width="300">
 
     <br>
+</details>
+
 ---
 
 <br>
