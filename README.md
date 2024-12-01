@@ -411,7 +411,7 @@ Processes represent the core operations or functions that process, manipulate, o
 - Outputs: Updated product records stored in the database and reflected in the store's product listings
 
 #### Order Management
-- Manages the lifecycle of orders, from creation to tracking and fulfillment
+- Manages the lifecycle of orders, from creation to tracking and fulfilment
 - Inputs: Shopping cart details, payment confirmation from the payment gateway and user information
 - Outputs: New order records stored in the database and a confirmation email sent to the user via Resend
 
@@ -450,11 +450,11 @@ Where the data is stored in the system and is accessed or updated by the process
 
 ## Application Architecture Diagram
 
-![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-diagram.png)
+![Application Architecture Diagram](docs/application-architechture-diagram/app-arch-diagram.png)
 
-![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-frontend.png)
+![Application Architecture Diagram Description](docs/application-architechture-diagram/app-arch-frontend.png)
 
-![Application Architecture Diagram Description](/docs/application-architechture-diagram/app-arch-backend.png)
+![Application Architecture Diagram Description](docs/application-architechture-diagram/app-arch-backend.png)
 
 <br>
 <br>
@@ -473,22 +473,22 @@ Norm needs an effective modern website that can connect and sell to their custom
 
 
 ### Persona 1
-![Persona 1](/docs/user-stories/user-stories-1.png)
+![Persona 1](docs/user-stories/user-stories-1.png)
 
 <br>
 
 ### Persona 2
-![Persona 2](/docs/user-stories/user-stories-2.png)
+![Persona 2](docs/user-stories/user-stories-2.png)
 
 <br>
 
 ### Persona 3
-![Persona 3](/docs/user-stories/user-stories-3.png)
+![Persona 3](docs/user-stories/user-stories-3.png)
 
 <br>
 
 ### Persona 4
-![Persona 4](/docs/user-stories/user-stories-4.png)
+![Persona 4](docs/user-stories/user-stories-4.png)
 
 <br>
 
@@ -524,7 +524,7 @@ Our e-commerce platform's structure is designed to provide intuitive navigation 
 
 The following site map outlines the complete structure of our application:
 
-![Image of the desktop wireframe for all pages](/docs/wireframes/site-map.png)
+![Image of the desktop wireframe for all pages](docs/wireframes/site-map.png)
 
 <br>
 <br>
@@ -541,19 +541,19 @@ You can view the Figma file [here](https://www.figma.com/design/FcoiuafqXz3Ca4uV
 
 ### **Desktop view**
 
-![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-desktop.png)
+![Image of the desktop wireframe for all pages](docs/wireframes/wireframe-desktop.png)
 
 ### **Tablet view**
 
-![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-tablet.png)
+![Image of the desktop wireframe for all pages](docs/wireframes/wireframe-tablet.png)
 
 ### **Mobile view**
 
-![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-mobile.png)
+![Image of the desktop wireframe for all pages](docs/wireframes/wireframe-mobile.png)
 
 ### **Hi-Fi Wireframe**
 
-![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-hi-fi.png)
+![Image of the desktop wireframe for all pages](docs/wireframes/wireframe-hi-fi.png)
 
 <br>
 <br>
