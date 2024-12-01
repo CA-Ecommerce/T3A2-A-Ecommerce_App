@@ -23,7 +23,7 @@ Key aspects include:
 -   [Features and Functionality](#features-and-functionality)
 
     -   [MVP Features](#mvp-features)
-    -   [Additional Features](#additional-features-post-mvp)
+    -   [Additional Features](#additional-enhanced-features-post-mvp)
 
 <br>
 
@@ -36,7 +36,7 @@ Key aspects include:
 
 <br>
 
--   [Dataflow & Application Architecture](#dataflow-and-application-architecture)
+-   [Dataflow and Application Architecture](#dataflow-and-application-architecture)
 
     -   [Dataflow Diagram](#dataflow-diagram)
     -   [Application Architecture Diagram](#application-architecture-diagram)
@@ -301,9 +301,12 @@ These packages and their dependencies work together to provide a robust, secure,
 
 <br>
 
-## Dataflow & Application Architecture
+## Dataflow and Application Architecture
 
-![Dataflow_Diagram_V4](docs/Dataflow-Diagram/dataflow_diagram_V4.JPG)
+### Dataflow Diagram
+
+![Dataflow_Diagram_V4](docs/Dataflow-Diagram/dataflow-diagram-V4.JPG)
+
 ### External Entities
 External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
 
