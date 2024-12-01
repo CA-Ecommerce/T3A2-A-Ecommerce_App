@@ -575,6 +575,8 @@ The board is organised into the following lists:
   <img src="docs/trello-screenshots/trello-5.png" alt="Trello Board Screenshot 1" width="300">
   <img src="docs/trello-screenshots/trello-6.png" alt="Trello Board Screenshot 1" width="300">
   <img src="docs/trello-screenshots/trello-7.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-8.png" alt="Trello Board Screenshot 1" width="300">
+  <img src="docs/trello-screenshots/trello-9.png" alt="Trello Board Screenshot 1" width="300">
 </details>
 
 ---
