@@ -301,17 +301,16 @@ The E-commerce Store utilises carefully selected technologies that work together
 These packages and their dependencies work together to provide a robust, secure, and efficient full-stack e-commerce application, handling everything from database operations and payment processing to user interface components and testing.
 
 <br>
+<br>
 
-## Dataflow and Application Architecture
-
-### Dataflow Diagram
+## Dataflow Diagram
 
 ![Dataflow_Diagram_V4](docs/Dataflow-Diagram/dataflow-diagram-V4.JPG)
 
 ### External Entities
 External entities represent the User/Admin or systems that interact with the application from the outside. These entities provide input or receive output from the system.
 
-User
+#### User
 -   Represents the customer interacting with the eCommerce store.
 -   Actions:
     -   Authenticates to log in or register
@@ -320,116 +319,126 @@ User
     -   Proceed to checkout
     -   Payment
 
-Admin
+
+#### Admin
 -   Represents the store administrator who can manage the store and perform CRUD operations.
 -   Actions:
     -   Manages Product, Orders and Users via CRUD operations
     -   View the admin dashboard tools
 
-Guest
+
+#### Guest
 - Represents a guest browsing the store without logging in.
 - Actions:
     - Browse products
     - Add items to shopping cart
     - Proceed to checkout (Checkout will then require login)
 
-Payment Gateway (Stripe)
+
+#### Payment Gateway (Stripe)
 -   Third party service used to securely process payments.
 -   Actions:
     -   Processes payment details submitted by customer during checkout
     -   Returns a payment confirmation or failure status
 
-Email service (Resend)
+
+#### Email service (Resend)
 
 -   Third party email service used for sending transactional emails.
 -   Actions:
     -   Sends order confirmation emails to the customer upon successful order payment
     -   Sends additional updates related to orders or account activities
 
-### Processes
+<br>
+
+### Processes (Customer Store)
 Processes represent the core operations or functions that process, manipulate, or route data within the system.
 
-User Signup (1)
+#### User Signup (1)
 - Users can signup with a new login to the website
 - Inputs: New login credentials (email and password)
 - Outputs: User account creation enabling login access
 
-User Login (1.5)
+#### User Login (1.5)
 - The standard user login which can access all areas of the website excluding the admin dashboard.
 - Inputs: Login credentials (email and password)
 - Outputs: Successful JWT token for a User login
 
-Admin Login (1.5)
+#### Admin Login (1.5)
 - Admin role able to access all areas of website including admin dashboard
 - Inputs: Login credentials (email and password)
 - Outputs: Successful JWT token for Admin login
 
- User Authentication (2)
+#### User Authentication (2)
 - Validates user credentials during login or registration
 - Inputs: User credentials (email and password)
 - Outputs: Authentication token (JWT) on success or error message on failure
 
-Add to Cart (3)
+#### Add to Cart (3)
 - Adds products to shopping cart to view and use for checkout
 - Inputs: Product data
 - Outputs: Adds product data to cart
 
-Shopping cart (4)
+#### Shopping cart (4)
 - Handles the uesr's shopping cart operations. Shows a list of products that have been added to cart, with product details (Price, SKU, Quantity, etc)
 - Inputs: Product selections (add, remove, modify quantities)
 - Outputs: List of selected items with quantities and pricing
 
-Checkout and Payment (5)
+#### Checkout and Payment (5)
 - Manages the checkout process and interfaces with the payment gateway (via stripe)
 - Inputs: Shopping cart details and payment details
 - Outputs: Order confirmation on success or error message on failure
 
-Successful Order Page (6)
+#### Successful Order Page (6)
 - Displays a confirmation message and order details upon successful checkout
 
-Continue Shopping (7)
+#### Continue Shopping (7)
 - Allows users to return to browsing and shopping with a reset cart after successfully completing a checkout
 - This process ensures users can continue their shopping journey with a refreshed cart, enabling them to explore and add new products
 
-### Processes Cont. (Admin Dashboard) 
+<br>
 
-Admin Dashboard
+### Processes (Admin Dashboard) 
+
+#### Admin Dashboard
 - Provides the admin with tools for managing the store via CRUD operations
 - Inputs: Admin actions for product, user and order management
 - Outputs: Updated product, user and order details displayed and stored
 
-Product Management
+#### Product Management
 - Handles the management of product inventory, including creating, updating, viewing, and deleting products
 - Inputs: Product data provided by the admin for CRUD operations (e.g. product name, price, stock quantity)
 - Outputs: Updated product records stored in the database and reflected in the store's product listings
 
-Order Management
+#### Order Management
 - Manages the lifecycle of orders, from creation to tracking and fulfillment
 - Inputs: Shopping cart details, payment confirmation from the payment gateway and user information
 - Outputs: New order records stored in the database and a confirmation email sent to the user via Resend
 
-User Management
+#### User Management
 - Oversees the management of user accounts within the system, including creating, updating, viewing and deleting user records
 - Inputs: User data provided by the admin for CRUD operations (e.g. user profile information)
 - Outputs: Updated user records stored in the database and reflected in the admin dashboard
+
+<br>
 
 ### Data Stores
 
 Where the data is stored in the system and is accessed or updated by the processes.
 
-1. User Database
+#### User Database
 -   Stores user account information (name, email)
 -   Contents:
     -   User Profiles (name, email, address)
     -   Login credentials (hashed passwords)
     -   Order history
 
-2. Products Database
+#### Products Database
 -   Stores product information
 -   Contents:
     -   Product details (ID, SKU, name, description, price, stock level)
 
-3. Orders Database
+#### Orders Database
 -   Stores records of all orders placed by users
 -   Contents:
     -   Order details (items purchased, quantities and total price)
@@ -437,8 +446,9 @@ Where the data is stored in the system and is accessed or updated by the process
 
 
 <br>
+<br>
 
-### Application Architecture Diagram
+## Application Architecture Diagram
 
 ![Application Architecture Diagram](/docs/application-architechture-diagram/app-arch-diagram.png)
 
@@ -506,6 +516,7 @@ NB: Please find the first text based draft of Persona 1's user story below in Re
 ---
 
 <br>
+<br>
 
 ## Site Map
 
@@ -515,6 +526,7 @@ The following site map outlines the complete structure of our application:
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/site-map.png)
 
+<br>
 <br>
 
 ## Wire Frames
@@ -543,6 +555,7 @@ You can view the Figma file [here](https://www.figma.com/design/FcoiuafqXz3Ca4uV
 
 ![Image of the desktop wireframe for all pages](/docs/wireframes/wireframe-hi-fi.png)
 
+<br>
 <br>
 
 ## Task Management and Project Progress
